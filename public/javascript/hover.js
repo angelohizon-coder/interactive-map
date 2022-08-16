@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.area-hover').mouseover(function() {
-        document.getElementById("div1").innerHTML = '';
+        document.getElementById("area-content").innerHTML = '';
 
         let areaName = document.getElementById(this.id).getAttribute("name");
         let name = document.getElementById("area-name").innerHTML; 
@@ -20,7 +20,7 @@ $(document).ready(function(){
             const node = document.createTextNode(words[i]);
             para.appendChild(node);
 
-            const element = document.getElementById("div1");
+            const element = document.getElementById("area-content");
             element.appendChild(para);
         }
         

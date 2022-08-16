@@ -2,6 +2,14 @@
     fill:black;
 } */
 
+.area-hover {
+    fill: #FBC436;
+}
+
+.area-hover:hover {
+    fill: #F9B505;
+}
+
 svg {
     fill: #E3E3E3;
     height: 1000px;
@@ -12,6 +20,16 @@ svg {
     overflow: hidden;
 }
 
-path:hover {
-    fill: #C1C1C1;
-}
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+  }
+  
+  #mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+  }

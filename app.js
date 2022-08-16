@@ -11,7 +11,6 @@ app.get("/", function(req, res) {
   res.render("map");
 });
 
-
 app.listen(port, function() {
   console.log("Server is running on " + port);
 });
