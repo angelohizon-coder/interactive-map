@@ -25,16 +25,16 @@ $(document).ready(function(){
       let dx = 0,
         dy = 0;
       switch (direction) {
-        case "right":
+        case "left":
           dx = -3;
           break;
-        case "left":
+        case "right":
           dx = 3;
           break;
-        case "down":
+        case "up":
           dy = -3;
           break;
-        case "up":
+        case "down":
           dy = 3;
           break;
       }
